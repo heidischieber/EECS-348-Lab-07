@@ -33,6 +33,14 @@ float celsius_to_kelvin(float celsius);
  * @param celsius
  * @return float
  */
-float kelvin_to_celsius(float celsius);
+float kelvin_to_celsius(float kelvin);
+
+/**
+ * @brief Categorizes Temps into "Freezing", "Cold", "Comfortable", "Hot", or "Extreme Heat"
+ * 
+ * @param celsius
+ * @return nothing
+ */
+void categorize_temperature(float celsius);
 
 #endif /* __REPORT_H__ */
